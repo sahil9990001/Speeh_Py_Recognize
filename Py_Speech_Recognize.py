@@ -9,4 +9,4 @@ with sr.Microphone() as source:
  		output= r.recognize_google(audio)
  		print("You Said :{}".format(output))
  	except:
- 		print("Cant Recognize")
+ 		print("Cant Recognize your Voice")
